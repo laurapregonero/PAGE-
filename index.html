@@ -23,37 +23,65 @@
       <section class="config">
         <div class="config-container">
           <form class="config-form">
-            <label class="config-form__title-input" for="cardHolder"
-              >CardHolder Name</label
+            <section
+              class="config-form__section-form config-form__section-form--top"
             >
-            <input
-              class="config-form__input"
-              type="text"
-              name="Cardholder_Name"
-              id="cardHolder"
-              placeholder="eg. Jane Appleseed"
-            />
-            <label class="config-form__title-input" for="cardNumber"
-              >Card Number</label
+              <label class="config-form__title-input" for="cardHolder"
+                >CardHolder Name</label
+              >
+              <input
+                class="config-form__input"
+                type="text"
+                name="Cardholder_Name"
+                id="cardHolder"
+                placeholder="eg. Jane Appleseed"
+              />
+            </section>
+            <section
+              class="config-form__section-form config-form__section-form--center"
             >
-            <input
-              class="config-form__input"
-              type="text"
-              name="Card_Number"
-              id="cardNumber"
-              placeholder="e.g. 1234 5678 9123 0000"
-            />
-            <label class="config-form__title-input" for="cardNumber">CVC</label>
-            <input
-              class="config-form__input"
-              type="text"
-              name="cvc"
-              id="cvc"
-              placeholder="  e.g. 123"
-            />
-            <label class="config-form__title-input">EXP.Date (MM/YY)</label>
-            <input type="number" placeholder="MM" class="config-form__input" />
-            <input type="number" placeholder="YY" class="config-form__input" />
+              <label class="config-form__title-input" for="cardNumber"
+                >Card Number</label
+              >
+              <input
+                class="config-form__input"
+                type="text"
+                name="Card_Number"
+                id="cardNumber"
+                placeholder="e.g. 1234 5678 9123 0000"
+              />
+            </section>
+            <section
+              class="config-form__section-form config-form__section-form--bottom"
+            >
+              <label
+                class="config-form__title-input config-form__title-input--bottom"
+                >EXP.Date (MM/YY)</label
+              >
+              <label
+                class="config-form__title-input config-form__title-input--bottom"
+                for="cardNumber"
+                >CVC</label
+              >
+              <input
+                type="number"
+                placeholder="MM"
+                class="config-form__input config-form__input--form-bottom"
+              />
+              <input
+                type="number"
+                placeholder="YY"
+                class="config-form__input config-form__input--form-bottom"
+              />
+
+              <input
+                class="config-form__input config-form__input--form-bottom"
+                type="text"
+                name="cvc"
+                id="cvc"
+                placeholder="  e.g. 123"
+              />
+            </section>
             <a href="/" class="config-form__button">Confirm</a>
           </form>
         </div>
